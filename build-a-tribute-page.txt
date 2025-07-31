@@ -1,0 +1,75 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang='en'>
+<main id='main' >
+
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='styles.css'>
+  
+</head>
+<body>
+   <title id='title'>A Tribute to Children's Safety Organization.</title>
+  <div id='img-div'>
+  <img src="https://www.napcan.org.au/wp-content/uploads/2020/07/poster2-1-e1593553768292.png" id='image'>
+  <figcaption id='img-caption'>Children's Safety Mattters</figcaption>
+  <div id="tribute-info"><p>Child Safety Organization has been working for more than 20 years for the betterment of street children and education.</p> </div>
+<a id="tribute-link" href=""target="_blank"></a>
+  </div>
+  <section>
+    <h1>Timeline for the Organization.</h1>
+    </section>
+    <nav>
+      <p id='bold'> Year 1: Foundation and Vision</p>
+      </nav>
+<nav>
+      <p id='bold'> Year 2: First Campaigns</p>
+      </nav>
+  <nav>
+    <p id='bold'>Year 3: Expansion into Digital Safety</p>
+    </nav>
+    <nav>
+<p>Year 4: Emergency Training</p> </nav>
+<nav>
+<p>Year 5: Research and Policy Advocacy</p></nav>
+
+<nav><p>Year 6: Community and Rural Outreach</p></nav>
+
+<nav><p>Year 7: Technology Integration</p></nav>
+
+<nav><p>Year 8: Global Connections</p></nav>
+
+<nav><p>Year 9: Youth Involvement</p></nav>
+
+<nav><p>Year 10: Legacy and Innovation</p></nav>
+
+<footer id='bold-italic'>
+  Check Details on Online. 
+</footer>
+</main>
+ </body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+img {
+  display: block;
+  max-width:100%;
+  height: auto;
+  
+}
+title {
+  font-size: 30px;
+  position: relative;
+}
+#bold {
+  font-weight: bold;
+}
+
+
+** end of styles.css **
+

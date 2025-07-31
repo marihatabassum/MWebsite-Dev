@@ -1,0 +1,77 @@
+** start of index.html **
+
+<!DOCTYPE html> 
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='viewport'>
+<link rel='stylesheet' href='styles.css'>
+
+</head>
+<main>
+<body>
+<header id='header'>
+<img id='header-img' src='https://media.licdn.com/dms/image/v2/C4E0BAQG4BZS-LVcj-w/company-logo_200_200/company-logo_200_200/0/1631338600285?e=2147483647&v=beta&t=EA53PU_KW-nxgtw3106rexxTh0_nkCyBJzh7rWyCL7c' alt='Knudsen logo'/>
+<nav id='nav-bar'>
+<a class='nav-link' href='#Products' >Products</a>
+<a class='nav-link' href='#About Us' >About Us</a>
+<a class='nav-link' href='#Support' >Support</a>
+</nav>
+
+<video id='video'>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+<form id='form' action="https://www.freecodecamp.com/email-submit">
+  <input id='email' placeholder='Enter Your Email Address' type='email' name='email' >
+  <a href='https://www.freecodecamp.com/email-submit'><input type="submit" id="submit" value='submit' name='submit'/></a>
+</form>
+<h2 id='Products'>Products</h2>
+<h2 id='About Us'>About Us<h2>
+  <h2 id="Support">Support</h2>
+</header>
+</body>
+  </main>
+
+
+  </html>
+
+** end of index.html **
+
+** start of styles.css **
+
+@media (max-width:400px){
+  .body{
+max-width: 400px; 
+
+  }
+}
+
+header {
+position: fixed;
+top: 0;
+min-height: 15px;
+padding: 0px 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #ab8103;
+@media (max-width: 600px) {
+  flex-wrap: wrap;
+}
+}
+html {
+ background-color: #ff8776;
+}
+img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+h2 {
+  display: center; 
+}
+
+
+
+** end of styles.css **
+

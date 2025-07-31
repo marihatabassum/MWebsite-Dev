@@ -1,0 +1,95 @@
+** start of index.html **
+
+<!DOCTYPE html> 
+<html lang="en">
+<meta charset="UTF-8">
+<link rel='stylesheet' href='styles.css'>  
+<head> 
+  <title>Questionaie To Fill</title>
+</head>
+<h1 id="title">Survey Form For Web Development</h1>
+<body> 
+<p id='description'> Please fill out the forms. * star sign indicated are must required to fill.</p>
+</body>
+<form id='survey-form'> 
+<fieldset>
+<label id="name-label">Your full name:
+<input id="name" type="text" placeholder="name including first & last" class='inline' required></label>
+<label id='email-label'> Your email address: 
+<input id="email" type="email" placeholder='email@com' class='inline' required></label>
+<label id='number-label'>Your age:
+<input id='number' type='number' min='10' max='110' placeholder='age' class='inline'></label>
+</fieldset>
+
+<fieldset>
+<label>What is your pevous knowledege on Web Development or in programming?</label>
+<select id='dropdown'>
+  <option>html</option>
+  <option>CSS</option>
+</select>
+<label>Please Choose why you want to learn Web Development?
+<input type="radio" value='1'name="group1">Student<br>
+<input type="radio" value='1' name="group1">Education Purpose
+<br>
+</label>
+<label>What is your profession now?
+<input type='radio' value='2' name="group 2">IT Engineer <br>
+<input type='radio' value='2' name="group 2">Software Development <br>
+<label>Please describe your motivation for this course program.</label>
+<textarea></textarea>
+</fieldset>
+
+<fieldset>
+<label> Where did you hear from freecodcamp?</label>
+<input type ='checkbox' value='1'> Online website 
+<input type='checkbox' value='2'> Instagram
+</label>
+</fieldset>
+
+<button id='submit' type="submit">Submit</button>
+</form>   
+    
+    
+</html> 
+
+** end of index.html **
+
+** start of styles.css **
+
+form{ 
+  background-color: pink;
+  max-width:500px;
+  margin: auto;
+}
+h1{
+margin:1em auto;
+color:magenta;
+width:100%;
+position:relative;
+text-align: center;
+}
+
+p{
+font-size: 20px;
+color: black;
+text-align: center;
+}
+label {
+  display:block;
+  margin: 0.5rem 0;
+  
+}
+
+fieldset {
+  padding:2rem 0;
+  border:3;
+
+}
+.inline{
+  width:unset;
+  margin:0 0.5rem 0 0;
+  vertical-align: center;
+}
+
+** end of styles.css **
+

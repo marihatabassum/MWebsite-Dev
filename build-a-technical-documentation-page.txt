@@ -1,0 +1,162 @@
+** start of index.html **
+
+<!DOCTYPE html> 
+<html lang='en'>
+
+  <head>
+    <meta charset='utf-8'/>
+<title>Introduction on MMA Fights Basic</title>
+<link rel='stylesheet' href='styles.css'>
+  </head>
+  <main id='main-doc'>
+    <nav id='navbar'>
+      <header>Introduction on MMA</header>
+      <a class='nav-link' href='#Body_Building_and_Warm_Ups'>Body Building and Warm Ups</a>
+<a class='nav-link' href="#About_20_Blocks">About 20 Blocks</a>
+<a class='nav-link' href="#Six_Forms">Six Forms</a>
+<a class='nav-link' href="#Fighting_Blocks">Fighting Blocks</a>
+<a class='nav-link' href="#Sanda_Basics">Sanda Basics</a>
+<a class='nav-link' href="#Wushu_Basics">Wushu Basics</a>
+<a class='nav-link' href="#Elbow_Forms">Elbow Forms</a>
+
+    </nav>
+    <section class='main-section'id='Body_Building_and_Warm_Ups'>
+      <header class='bold'>Body Building and Warm Ups</header>
+      <p>Both warm-ups and bodybuilding exercises are important for MMA training, but they serve different purposes. 
+        <p>Warm-ups are crucial for preparing the body for the demands of training, improving flexibility, and preventing injuries.</p>
+        <p>Bodybuilding, or strength training, can be beneficial for building muscle mass and increasing overall strength, which can be helpful for MMA, but it's not the primary focus.</p>
+    <p>A well-rounded MMA training program should incorporate both</p>
+      <p>Types of Exercises: Dynamic stretches (arm circles, leg swings, torso twists), light cardio (jogging, shadow boxing), and mobility drills. 
+</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+    </section>
+    
+    <section class="main-section" id="About_20_Blocks">
+      <header class='bold'>About 20 Blocks</header>
+      <p>
+Here are 20 block names relevant to Mixed Martial Arts (MMA), categorized for clarity:
+</p>
+      <ol>
+        <p class='italic'> Basic Blocks</p>
+        <li>High Block: Protects the head and face from strikes.</li>
+        <li>Low Block: Defends against kicks to the legs and body shots.</li>
+<li>Lead Hand Guard: Using the lead arm to protect the head and body.</li>
+<li>Rear Hand Guard: Similar to the lead hand guard, but with the rear arm.</li>
+<li>Double Forearm Block: Both forearms are used to block incoming strikes.</li>
+<li>Clinch Block: Used to defend against strikes while clinching</li>
+
+      </ol>
+      <p class='italic'>Advanced Blocks</p>
+      <ol>
+        <li>Catch (or Catching): A technique to grab or deflect an incoming strike with the hand.</li>
+        <li>Parry: A quick, deflected block to redirect an attack.</li>
+        <li>Shoulder Block: Using the shoulder to deflect strikes.</li>
+        <li>Elbow Block: Using the elbow to block strikes, often against punches.</li>
+        <li>Knee Block: Using the knee to block kicks.</li>
+        
+      </ol>
+      <p class='italic'>Blocks in Combination:</p>
+      <ol>
+        <li>Slip and Block: Slipping the head to evade a strike and then blocking with the opposite hand.</li>
+        <li>Step Back and Block: Moving backward while blocking to create distance.</li>
+        <li>Angle and Block: Moving to the side (angling) while blocking.</li>
+        <li>Check (or Checking): A type of block used specifically against leg kicks.
+</li>
+        </ol>
+        <p class='italic'>Defensive Techniques:</p>
+        <ol>
+          <li>Head Movement: Evasive movements like bobbing and weaving.</li>
+            <li>Footwork: Moving in and out of range to avoid strikes.</li>
+            <li>Feinting: A deceptive movement to draw out a reaction.</li>
+            <li>Cover Up: Protecting the head and body with arms and gloves.</li>
+            <li>Takedown Defense: Blocks and movements to prevent being taken down. 
+</li>
+  </ol>
+
+    </section>
+    
+    <section class="main-section" id ="Six_Forms">
+      <header class='bold'>Six Forms</header>
+      <p>Six forms are used for <code>defending</code> knife attacks from opponent.</p>
+    </section>
+    <section class="main-section" id="Fighting_Blocks">
+      <header class='bold'>Fighting Blocks</header>
+      <p>These blocks are for defense while <code>countering the attacks</code> from opponent</p>
+      <p>There are 13 blocks you will need to do for this part.</p>
+    </section>
+    <section class="main-section" id="Sanda_Basics">
+      <header class='bold'>Sanda Basics</header>
+      <p>The techniques are used to attack opponents. There are three types of <code>hand attaks</code>:</p>
+      <ol>
+        <li>Straight Punch</li>
+        <li>Hook Punch</li>
+        <li>Upper Cut</li>
+        </ol>
+        <p> And two types of <code>leg attack</code> movements: </p>
+        <ul>
+          <li>Side Kick</li>
+          <li>Front Kick</li>
+        </ul>
+    </section>
+    <section class="main-section" id="Wushu_Basics">
+<header class='bold'>Wushu Basics</header>
+<p>These are for powerful attacks with lots of beatiful tehniques. 
+    </section>
+    <section class="main-section" id="Elbow_Forms">
+      <header class='bold'>Elbow Forms</header>
+<p>Elbow forms mainly the use of <code>elbows</code> to attack oppotent.
+    </section>
+
+
+  
+</main>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+html{
+  box-sizing: border-box;
+}
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width:400px){
+  main{
+    background-color: beige;
+  }
+}
+.italic {
+  font-style: italic;
+}
+.navbar {
+margin: auto;
+padding: 10px;
+background-color: black;
+
+}
+header{ 
+  font-weight: bold; 
+  font-size: 30px;
+color: brown;
+}
+a {
+  display: block; 
+  padding: 8px; 
+  background-color: #dddddd;
+  text-align: center;
+}
+.main-section{
+  color: red;
+}
+
+** end of styles.css **
+
